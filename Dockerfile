@@ -12,3 +12,4 @@ RUN apt-get install -yy clang-tidy-${version} && \
 	ln -s /usr/bin/clang-tidy-diff-${version}.py /clang-tidy-diff.py
 RUN pip3 install pyyaml
 COPY pipe_changes.sh /pipe_changes.sh
+RUN chmod +x /pipe_changes.sh
