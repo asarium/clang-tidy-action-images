@@ -1,4 +1,4 @@
-name: Publish Standalone docker image
+name: Publish clang-tidy images
 
 on:
   push:
